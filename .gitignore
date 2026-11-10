@@ -1,0 +1,32 @@
+# Scala / sbt
+target/
+project/target/
+project/project/
+.bsp/
+.metals/
+.bloop/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Spark temporary files
+.sparkStaging/
+derby.log
+metastore_db/
+spark-warehouse/
+
+# Hadoop checksum files
+*.crc
+
+# Operating system files
+.DS_Store
+Thumbs.db
